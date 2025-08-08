@@ -1,0 +1,29 @@
+:root {
+    --menuWidth: 100%;
+    --leftColBackground: #fff;
+    --lightLeftColBackground: #2d343a;
+    --darkLeftColBackground: #22272b;
+    --mainColor: #137bc0;
+    --mainColor2: #23a2db;
+    --menuHover: #ffc107;
+    --accentColor1: #929292;
+    --accentColor2: #d80000;
+    --textColor: #4c4c4c;
+}
+
+.product-item .sale-label {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #ffffff;
+    background: var(--accentColor2);
+    padding: 3px 5px;
+    z-index: 8;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.sale-label span {
+    display: inline-block;
+    font-weight: bold;
+}
